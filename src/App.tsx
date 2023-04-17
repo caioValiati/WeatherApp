@@ -53,6 +53,14 @@ function App() {
   }
 
   useEffect(() => {
+    var theme = localStorage.getItem("theme")
+
+    if (!theme) {
+      localStorage.setItem("theme", "dark")
+    }
+  }, [])
+
+  useEffect(() => {
     if (theme === "dark") {
       document.documentElement.classList.add("dark");
     } else {
