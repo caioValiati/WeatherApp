@@ -109,7 +109,7 @@ function App() {
         </motion.div>
       )}
 
-      <main className=" lg:pt-0 pt-20 relative overflow-hidden w-full lg:h-screen h-full flex justify-center items-center  bg-gradient-to-r dark:from-slate-900 from-slate-400 to-slate-700 dark:to-black">
+      <main className=" lg:pt-0 pt-20 relative overflow-hidden w-full h-screen flex justify-center items-center  bg-gradient-to-r dark:from-slate-900 from-slate-400 to-slate-700 dark:to-black">
         <div className="background absolute flex flex-wrap h-screen animate-slide">
           {imgs.map(() => {
             return (
