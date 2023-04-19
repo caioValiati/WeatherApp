@@ -3,7 +3,7 @@
   <a href="https://cg-weatherapp.vercel.app/" target="_blank">weather.app</a>
 </h2>
 <div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
+  <img alt="Demo" src="public/media/assets/readme-img.png" />
 </div>
 
 <br/>
